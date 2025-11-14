@@ -1,0 +1,10 @@
+serK_RUN_HOST=0.0.0.0
+      - FLASvices:
+  python-server:
+    build: .
+    ports:
+      - "5000:5000"
+    container_name: python-app
+    restart: unless-stopped
+     environment:
+      - FLASK_RUN_PORT=5000

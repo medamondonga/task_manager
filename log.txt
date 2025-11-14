@@ -1,0 +1,38 @@
+127.0.0.1 - - [26/Oct/2025 06:06:37] "GET /add HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2025 06:06:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Oct/2025 06:06:47] "[32mPOST /add HTTP/1.1[0m" 302 -
+127.0.0.1 - - [26/Oct/2025 06:06:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2025 06:06:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [26/Oct/2025 06:11:01] "GET /add HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2025 06:11:01] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2025 07:06:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2025 07:06:38] "GET /static/style.css HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [28/Oct/2025 10:18:05] "[32mGET /delete/3 HTTP/1.1[0m" 302 -
+127.0.0.1 - - [28/Oct/2025 10:18:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2025 10:18:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Oct/2025 10:18:07] "GET /add HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2025 10:18:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [28/Oct/2025 10:18:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2025 10:18:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Oct/2025 01:49:35] "GET /static/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 01:49:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
