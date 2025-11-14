@@ -22,7 +22,7 @@
         {% endif %}
         
         <div class="task-meta">
-            <small>Créée le: {{ task['created_at'][:10] }}</small>
+            <small>Créée le: {{ task['created_at'].strftime('%Y-%m-%d') }}</small>
         </div>
         
         <div class="task-actions">
