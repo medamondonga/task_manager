@@ -1,13 +1,12 @@
-import mysql.connector # 1. Changed import
+import mysql.connector
 import os
 
 # --- MariaDB/MySQL Connection Details ---
-# You MUST replace these with your actual server details
 DB_CONFIG = {
-    'host': '192.168.56.104',  # Replace with the IP address of the MariaDB server
-    'user': 'meda',    # Replace with your MariaDB username
-    'password': '0000', # Replace with your MariaDB password
-    'database': 'task'          # Replace with your database name
+    'host': '192.168.56.104',
+    'user': 'meda', 
+    'password': '0000',
+    'database': 'task'
 }
 # ------------------------------------------
 
