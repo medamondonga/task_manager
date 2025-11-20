@@ -1,0 +1,33 @@
+#!/bin/bash
+
+if [ $# -ne 4 ]; then
+    echo "Usage: $0 <port1> <port2> <port3> <port4>"
+    exit 1
+fi
+
+PORT1=$1
+PORT2=$2
+PORT3=$3
+PORT4=$4
+
+GITHUB_URL="https://github.com/medamondonga/task_manager.git"
+PROJECT_NAME=$(basename "$GITHUB_URL" .git)
+
+# Obtenir l'adresse IP de la machine
+echo "Clonage du projet..."
+git clone "$GITHUB_URL"
+cd "$PROJECT_NAME"
+echo "Création de l'environnement virtuel..."
+python3 -m venv venv
+source venv/bin/activate
+
+echo "Installation des dépendances..."
+pip install -r requirements.txt
+
+echo "Lancement du serveur sur les ports $PORT1, $PORT2, $PORT3, $PORT4..."
+
+# Lancer l'application sur les 4 ports
+python3 -m flask run --host=0.0.0.0 --port=$PORT1 & \
+python3 -m flask run --host=0.0.0.0 --port=$PORT2 & \
+python3 -m flask run --host=0.0.0.0 --port=$PORT3 & \
+python3 -m flask run --host=0.0.0.0 --port=$PORT4 & \
