@@ -3,7 +3,7 @@ import os
 
 # --- MariaDB/MySQL Connection Details ---
 DB_CONFIG = {
-    'host': '192.168.56.104',
+    'host': '172.31.73.182',
     'user': 'meda', 
     'password': '0000',
     'database': 'task'
